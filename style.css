@@ -1,0 +1,90 @@
+.html-index,
+.body-index {
+  height: 100%;
+}
+
+.body-index {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: linear-gradient(to left, #DB25D5, #023C6B, #61DB25);
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-fly {
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
+}
+
+.checkbox
+{
+  color: #fff;
+}
+
+#titulo
+{
+  color: #fff;
+}
+
+.body-cadastro
+{
+    background-image: linear-gradient(to left, #DB25D5, #023C6B, #61DB25);
+    margin: 2rem auto;
+    min-height: 100vh; /* garante que o fundo cubra a tela toda */
+}
+
+.nome,
+#tabela,
+th,
+tr
+{
+    color: #fff;
+}
+
+@media (min-width: 768px)
+{
+    .body-cadastro
+    {
+        width: 50%;
+    }
+
+    .novo_cont
+    {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .novo_cont button
+    {
+        width: fit-content; /* botão só ocupa o espaço do texto */
+    }
+}
