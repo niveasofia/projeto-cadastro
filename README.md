@@ -26,7 +26,7 @@
 <p align="justify">
     &emsp;&emsp; Projeto criado na disciplina de Front-End, com a orientação do professor <a href="https://github.com/leonardossrocha">Leonardo Rocha</a>. <br>
     &emsp;&emsp; O projeto consiste em uma tela de acesso onde o usuário informa seus dados (e-mail e senha) e ao clicar em entrar, o usuário é encaminhado para uma tela de cadastro bem simples, onde ele informa apenas nome. <br>
-    &emsp;&emsp; A tela de cadastro faz uso de arrow function para captar e salvar os nomes cadastrados. Os nomes são exibidos na tela através de uma tabela, seguidos por dois botões sendo eles editar e excluir. O botão editar chama o nome novamente para o campo de texto e permite ao usuário, alterar o nome cadastrado. O nome é removido daquele ponto da lista e adicionado novamente em uma nova posição. O botão excluir, exclui o nome cadastrado, tanto da tabela quanto da lista onde ele foi armazenado.
+    &emsp;&emsp; A tela de cadastro faz uso de funções tradicionais para captar e salvar os nomes cadastrados em uma array. Os nomes são exibidos na tela através de uma tabela, seguidos por dois botões sendo eles editar e excluir. O botão editar chama o nome novamente para o campo de texto e permite ao usuário, alterar o nome cadastrado. O nome é removido daquele ponto da lista e adicionado novamente em uma nova posição. O botão excluir, exclui o nome cadastrado, tanto da tabela quanto da lista (array) onde ele foi armazenado.
 </p>
 
 
